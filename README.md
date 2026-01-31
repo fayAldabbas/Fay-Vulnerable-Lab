@@ -81,6 +81,12 @@ application without affecting production systems.
 
 ---
 
+## AI-assisted Development (Supporting Tool)
+
+The core code of the lab was generated with AI assistance, while manual refinements
+and customizations were applied to ensure accuracy, functionality, and learning value.
+
+---
 ## ⚠️ Disclaimer
 This project is intended strictly for educational and training purposes.
 All vulnerabilities are intentionally introduced in a controlled lab
