@@ -8,7 +8,7 @@ This lab is provided as a pre-built Docker image.
 ## Run the Lab
 ```bash
 docker run -d -p 3000:3000 fayaldabbas/vulnerable-lab:latest
-
+---
 ⚠️ Security Notice – XSS Limitation
 Warning:
 Although the application contains input points that could theoretically be
