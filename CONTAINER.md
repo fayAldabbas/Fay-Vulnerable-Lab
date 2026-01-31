@@ -5,12 +5,10 @@ This lab is provided as a pre-built Docker image.
 ## Requirements
 - Docker
 
-## Run the Lab
-```bash
-docker run -d -p 3000:3000 fayaldabbas/vulnerable-lab:latest
+## ⚠️ Security Notice – XSS Limitation
 
-⚠️ Security Notice – XSS Limitation
-Warning:
+**Warning:**
+
 Although the application contains input points that could theoretically be
 vulnerable to Cross-Site Scripting (XSS), the attack does not execute in practice.
 
@@ -20,3 +18,8 @@ environment.
 
 The XSS scenario is included for educational and analytical purposes only,
 without allowing real exploitation.
+
+## Run the Lab
+
+```bash
+docker run -d -p 3000:3000 fayaldabbas/vulnerable-lab:latest
